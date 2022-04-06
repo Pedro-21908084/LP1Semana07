@@ -19,7 +19,19 @@ namespace ColorBalls
             this.red = red;
             this.green = green;
             this.blue = blue;
-            this.red = 2555;
+            this.red = 255;
         }
+
+        //Getters
+        public byte GetRed() => red;
+        public byte GetGreen() => green;
+        public byte GetBlue() => blue;
+        public byte GetAlpha() => alpha;
+
+        //Setters
+        public void SetRed(byte red)=> this.red = red;
+        public void SetGreen(byte green)=> this.green = green;
+        public void SetBlue(byte blue)=> this.blue = blue;
+        public void SetAlpha(byte alpha)=> this.alpha = alpha;
     }
 }
