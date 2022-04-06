@@ -1,4 +1,4 @@
-namespace ColorBalls
+namespace ColorBallsWithProperties
 {
     public class Color
     {

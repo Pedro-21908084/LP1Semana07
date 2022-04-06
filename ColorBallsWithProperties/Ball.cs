@@ -1,4 +1,4 @@
-namespace ColorBalls
+namespace ColorBallsWithProperties
 {
     public class Ball
     {
@@ -29,7 +29,5 @@ namespace ColorBalls
             if (radius > 0)
                 ThrowTimes++;
         }
-
-        public int GetThrowTimes() => throwTimes;
     }
 }
