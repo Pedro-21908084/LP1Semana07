@@ -16,7 +16,7 @@ namespace ColorBalls
             color = new Color(255, 0, 0);
             this.radius = radius;
         }
-        public Ball(float radius)
+        public Ball()
         {
             color = new Color(255, 0, 0);
             radius = 1.0f;
