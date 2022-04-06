@@ -29,5 +29,7 @@ namespace ColorBalls
             if (radius > 0)
                 throwTimes++;
         }
+
+        public int GetThrowTimes() => throwTimes;
     }
 }
