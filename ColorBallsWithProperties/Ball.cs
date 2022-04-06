@@ -2,23 +2,23 @@ namespace ColorBallsWithProperties
 {
     public class Ball
     {
-        private readonly Color color;
+        public Color Color{get;}
         private float radius;
         public int ThrowTimes{get;private set;}
 
         public Ball(Color color, float radius)
         {
-            this.color = color;
+            Color = color;
             this.radius = radius;
         }
         public Ball(float radius)
         {
-            color = new Color(255, 0, 0);
+            Color = new Color(255, 0, 0);
             this.radius = radius;
         }
         public Ball()
         {
-            color = new Color(255, 0, 0);
+            Color = new Color(255, 0, 0);
             radius = 1.0f;
         }
 

@@ -33,6 +33,7 @@ namespace ColorBallsWithProperties
             Console.WriteLine($"Ball 1 was throw {ball1.ThrowTimes} times");
             Console.WriteLine($"Ball 2 was throw {ball2.ThrowTimes} times");
             Console.WriteLine($"Ball 3 was throw {ball3.ThrowTimes} times");
+            Console.WriteLine("Color of ball 2 is: " + ball3.Color.Name);
         }
     }
 }
