@@ -21,5 +21,7 @@ namespace ColorBalls
             color = new Color(255, 0, 0);
             radius = 1.0f;
         }
+
+        public void Pop()=> radius = 0;
     }
 }
