@@ -10,17 +10,17 @@ namespace ColorBalls
 
         public Color(byte red, byte green, byte blue, byte alpha)
         {
-            this.red = red;
-            this.green = green;
-            this.blue = blue;
-            this.alpha = alpha;
+            Red = red;
+            Green = green;
+            Blue = blue;
+            Alpha = alpha;
         }
         public Color(byte red, byte green, byte blue)
         {
-            this.red = red;
-            this.green = green;
-            this.blue = blue;
-            this.red = 255;
+            Red = red;
+            Green = green;
+            Blue = blue;
+            Alpha = 255;
         }
     }
 }
