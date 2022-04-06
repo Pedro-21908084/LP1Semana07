@@ -22,6 +22,12 @@ namespace ColorBalls
             radius = 1.0f;
         }
 
-        public void Pop()=> radius = 0;
+        public void Pop() => radius = 0;
+
+        public void Throw()
+        {
+            if (radius > 0)
+                throwTimes++;
+        }
     }
 }
