@@ -29,9 +29,12 @@ namespace ColorBalls
         public byte GetAlpha() => alpha;
 
         //Setters
-        public void SetRed(byte red)=> this.red = red;
-        public void SetGreen(byte green)=> this.green = green;
-        public void SetBlue(byte blue)=> this.blue = blue;
-        public void SetAlpha(byte alpha)=> this.alpha = alpha;
+        public void SetRed(byte red) => this.red = red;
+        public void SetGreen(byte green) => this.green = green;
+        public void SetBlue(byte blue) => this.blue = blue;
+        public void SetAlpha(byte alpha) => this.alpha = alpha;
+
+        //grey
+        public byte GetGrey() => (byte)((red + green + blue) / 3);
     }
 }
