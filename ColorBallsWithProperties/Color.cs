@@ -11,8 +11,7 @@ namespace ColorBallsWithProperties
         {
             get
             {
-                Color color = new Color(Red, Green, Blue);
-                return color switch
+                return this switch
                 {
                     { Red: 255, Green: 0, Blue: 0 } => "100% red!",
                     { Red: 0, Green: 255, Blue: 0 } => "100% green!",
